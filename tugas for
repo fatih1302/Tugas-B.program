@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+	for (int m = 100; m <= 1000; m++)
+	{
+		if (m % 2==0)
+		{
+			cout << m << "ADALAH BILANAGN GEANAP "<<endl;
+		}
+	}
+	
+	
+		for (int n = 100; n <= 1000; n++)
+	{
+		if (n % 2==1)
+		{
+			cout << n << "ADALAH BILANAGN GANJIL "<<endl;
+		}
+	}
+	
+}
