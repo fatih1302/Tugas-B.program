@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+//Tugas GOTO Fatih
+
+int main(){
+	
+	//MEMBUAT PROGRAM GOTO
+	char jump = 'n' ;
+	
+	
+	cout<< "MASUKKAN HURUF I AGAR MELOMPAT" << endl;
+	cout<< "MASUKKAN HURUF J AGAR TIDAK MELOMPAT" << endl;
+	cin>> jump;
+	
+	cout << "K" <<endl;
+	if ( jump == 'I' ) goto lompat;
+	cout << "L" <<endl;
+	lompat:
+	cout << "M" <<endl;
+	
+	return 0;
+}
